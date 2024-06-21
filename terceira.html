@@ -4,12 +4,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
-    <script src="quinta.js" defer></script>
+    <script src="terceira.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade 05</title>
+    <title>Atividade 03</title>
 </head>
 <body>
     <nav>
@@ -17,15 +17,24 @@
         
     </nav>
     <hr>
-    <h1>Atividade - 05</h1>
+    <h1>Atividade - 03</h1>
     <br>
-    <h2>Maior e Menor</h2>
+    <h2>Conversão °F ou °C</h2>
     <br><br>
-    <label for="numeros">Digite 5 valores separados por vírgula: </label>
-    <input type="text" id="numeros">
+    <label for="CelPFar">Converter de °C para °F</label>
+    <br>
+    <input type="number" id="CelPFar" placeholder="Insira o Valor em °C">
     <br><br>
-    <button onclick="maiorMenor()">Verificar</button>
+    <button onclick="celPFar()" class="uma">Converter para °F</button>
     <br><br>
-    <div id="respostaCinco"></div>
+    <div id="respostaFar"></div>
+    <br><br>
+    <label for="FarPCel">Converter de °F para °C</label>
+    <br>
+    <input type="number" id="FarPCel" placeholder="Insira o Valor em °F">
+    <br><br>
+    <button onclick="farPCel()" class="uma">Converter para °C</button>
+    <br><br>
+    <div id="respostaCel"></div>
 </body>
 </html>

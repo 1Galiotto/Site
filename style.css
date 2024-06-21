@@ -24,3 +24,8 @@ h1{
     background: transparent;
     filter: drop-shadow(1px 5px 3px  #00d0ff)
 }
+.uma{
+    height: 2rem;
+    width: 8rem;
+    font-size: 1rem;
+}
